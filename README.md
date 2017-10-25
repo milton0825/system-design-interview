@@ -40,10 +40,10 @@ the detailed OOD design for a particular function. You may also need to design t
 Here are some articles about system design related topics.  
 
 - [x] [How to Rock a Systems Design Interview](http://www.palantir.com/2011/10/how-to-rock-a-systems-design-interview/)
-- [ ] [Scalability for Dummies](http://www.lecloud.net/tagged/scalability)
-- [x] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html)
+- [ ] [Scalability for Dummies](http://www.lecloud.net/tagged/scalability) :star:
+- [x] [Scalable Web Architecture and Distributed Systems](http://www.aosabook.org/en/distsys.html) :star:
 - [ ] [Numbers Everyone Should Know](http://everythingisdata.wordpress.com/2009/10/17/numbers-everyone-should-know/)
-- [ ] [Fallacies of distributed systems](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
+- [x] [Fallacies of distributed systems](https://pages.cs.wisc.edu/~zuyu/files/fallacies.pdf)
 - [ ] [Scalable System Design Patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
 - [ ] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 - [ ] [Transactions Across Datacenters](http://snarfed.org/transactions_across_datacenters_io.html)
