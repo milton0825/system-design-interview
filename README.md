@@ -140,7 +140,7 @@ There are some good references for each question. The references here are slides
 
 **Design a CDN network**  
 
-![logo](imgs/CDN.png)
+![CDN](imgs/CDN.png)
 
 Reference:  
 * [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
@@ -150,6 +150,8 @@ Strategies:
 * Locking: lock the document so that it can be editted by one person at a time.
 * Event passing: capture all user actions and mirror them.
 * Differntial synchronization: 
+
+![differential-synchronization](imgs/differential-synchronization.png)
 
 Reference:  
 * [google-mobwrite](https://code.google.com/p/google-mobwrite/)
