@@ -139,15 +139,23 @@ The following papers/articles/slides can help you to understand the general desi
 There are some good references for each question. The references here are slides and articles. 
 
 **Design a CDN network**  
-Reference:  
-* [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
 
 ![logo](imgs/CDN.png)
 
+Reference:  
+* [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
+
 **Design a Google document system**  
+Strategies:
+* Locking: lock the document so that it can be editted by one person at a time.
+* Event passing: capture all user actions and mirror them.
+* Differntial synchronization: 
+
 Reference:  
 * [google-mobwrite](https://code.google.com/p/google-mobwrite/)
 * [Differential Synchronization](https://neil.fraser.name/writing/sync/)
+
+
 
 **Design a random ID generation system**  
 Reference: 
