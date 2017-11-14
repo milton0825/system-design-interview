@@ -157,12 +157,13 @@ Reference:
 * [google-mobwrite](https://code.google.com/p/google-mobwrite/)
 * [Differential Synchronization](https://neil.fraser.name/writing/sync/)
 
-
-
 **Design a random ID generation system**  
+* id = (timestamp << 22) | (machine id << 12) | (thread id)
+
 Reference: 
 * [Announcing Snowflake](https://blog.twitter.com/2010/announcing-snowflake) 
 * [snowflake](https://github.com/twitter/snowflake/)
+* [Unique ID generation in distributed systema](https://www.slideshare.net/davegardnerisme/unique-id-generation-in-distributed-systems)
 
 **Design a key-value database**  
 Reference:   
