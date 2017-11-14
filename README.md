@@ -141,7 +141,7 @@ There are some good references for each question. The references here are slides
 **Design a CDN network**  
 Reference:  
 * [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
-
+[![logo](imgs/CDN.png)]
 **Design a Google document system**  
 Reference:  
 * [google-mobwrite](https://code.google.com/p/google-mobwrite/)
