@@ -138,6 +138,12 @@ The following papers/articles/slides can help you to understand the general desi
 
 There are some good references for each question. The references here are slides and articles. 
 
+**Design Twitter**
+
+Reference:
+* [How to design Twitter (part 1)](http://blog.gainlo.co/index.php/2016/02/17/system-design-interview-question-how-to-design-twitter-part-1/)
+* [How to design Twitter (part 2)](http://blog.gainlo.co/index.php/2016/02/24/system-design-interview-question-how-to-design-twitter-part-2/)
+
 **Design a CDN network**  
 
 ![CDN](imgs/CDN.png)
@@ -154,6 +160,7 @@ Strategies:
 ![differential-synchronization](imgs/differential-synchronization.png)
 
 Reference:  
+* [How to design Google docs](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
 * [google-mobwrite](https://code.google.com/p/google-mobwrite/)
 * [Differential Synchronization](https://neil.fraser.name/writing/sync/)
 
@@ -161,12 +168,15 @@ Reference:
 * id = (timestamp << 22) | (machine id << 12) | (thread id)
 
 Reference: 
+* [Random ID generator](http://blog.gainlo.co/index.php/2016/06/07/random-id-generator/)
 * [Announcing Snowflake](https://blog.twitter.com/2010/announcing-snowflake) 
 * [snowflake](https://github.com/twitter/snowflake/)
 * [Unique ID generation in distributed systema](https://www.slideshare.net/davegardnerisme/unique-id-generation-in-distributed-systems)
 
 **Design a key-value database**  
 Reference:   
+* [Design a key value store (part 1)](http://blog.gainlo.co/index.php/2016/06/14/design-a-key-value-store-part-i/)
+* [Design a key value store (part 2)](http://blog.gainlo.co/index.php/2016/06/21/design-key-value-store-part-ii/)
 * [Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
 
 **Design the Facebook news feed function**   
@@ -175,7 +185,7 @@ Reference:
 * [What are the scaling issues to keep in mind while developing a social network feed?](http://www.quora.com/Activity-Streams/What-are-the-scaling-issues-to-keep-in-mind-while-developing-a-social-network-feed) 
 * [Activity Feeds Architecture](http://www.slideshare.net/danmckinley/etsy-activity-feeds-architecture)
 * [Design News Feed System (Part 1)](http://blog.gainlo.co/index.php/2016/03/29/design-news-feed-system-part-1-system-design-interview-questions/?utm_campaign=quora&utm_medium=What+are+the+best+practices+for+building+something+like+a+News+Feed%3F&utm_source=quora)
-* [Design New Feed System (Part 2)](http://blog.gainlo.co/index.php/2016/04/05/design-news-feed-system-part-2/?utm_campaign=quora&utm_medium=What+are+the+best+practices+for+building+something+like+a+News+Feed%3F&utm_source=quora)
+* [Design Newx Feed System (Part 2)](http://blog.gainlo.co/index.php/2016/04/05/design-news-feed-system-part-2/?utm_campaign=quora&utm_medium=What+are+the+best+practices+for+building+something+like+a+News+Feed%3F&utm_source=quora)
 
 **Design the Facebook timeline function**   
 Reference: 
@@ -203,6 +213,7 @@ Reference:
 
 **Design a picture sharing system**   
 Reference:   
+* [Create a photo sharing app](http://blog.gainlo.co/index.php/2016/03/01/system-design-interview-question-create-a-photo-sharing-app/)
 * [Flickr Architecture](http://highscalability.com/flickr-architecture) 
 * [Instagram Architecture](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
 
@@ -212,35 +223,57 @@ Reference:
 * [Implementing Search Engines](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)
 
 **Design a recommendation system**  
-Reference:  
+Reference:
+* [Design a recommendation system](http://blog.gainlo.co/index.php/2016/05/24/design-a-recommendation-system/)
 * [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)  
 * [Recommender Systems](http://ijcai13.org/files/tutorial_slides/td3.pdf)
 
 **Design a tinyurl system**    
-Reference: 
+Reference:
+* [Create a TinyURL system](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
 * [System Design for Big Data-tinyurl](http://n00tc0d3r.blogspot.com/) 
 * [URL Shortener API](https://developers.google.com/url-shortener/?csw=1)
 
+**Design eCommerce website**
+Reference:
+* [Design eCommerce website (part 1)](http://blog.gainlo.co/index.php/2016/08/22/design-ecommerce-website-part/)
+* [Design eCommerce website (part 2)](http://blog.gainlo.co/index.php/2016/08/28/design-ecommerce-website-part-ii/)
+
+**Design a hit counter**
+Reference:
+* [Design hit counter](http://blog.gainlo.co/index.php/2016/09/12/dropbox-interview-design-hit-counter/)
+
+**Design a Youtube system**
+Reference:
+* [How to design Youtube (part 1)](http://blog.gainlo.co/index.php/2016/10/22/design-youtube-part/)
+* [How to design Youtube (part 2)](http://blog.gainlo.co/index.php/2016/11/04/design-youtube-part-ii/)
+
 **Design a garbage collection system**    
-Reference:   
+Reference: 
+* [Design a garbage collection system (part 1)](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
+* [Design a garbage collection system (part 2)](http://blog.gainlo.co/index.php/2016/08/08/design-garbage-collection-system-part-ii/)
 * [Baby's First Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
  
 **Design a scalable web crawling system**    
 Reference:  
+* [Build a web crawler](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
 * [How can I build a web crawler from scratch?](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch)
 
 **Design the Facebook chat function**    
 Reference:   
+* [Design a Facebook chat function](http://blog.gainlo.co/index.php/2016/04/19/design-facebook-chat-function/)
 * [Erlang at Facebook](http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf)  
 * [Facebook Chat](https://www.facebook.com/note.php?note_id=14218138919&id=9445547199&index=0)
 
 **Design a trending topic system**    
 Reference:  
+* [How to design a trending algorithm for Twitter](http://blog.gainlo.co/index.php/2016/05/03/how-to-design-a-trending-algorithm-for-twitter/)
 * [Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm](http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/)   
 * [Early detection of Twitter trends explained](http://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/)
  
 **Design a cache system**    
 Reference:   
+* [Design a cache system](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)
 * [Introduction to Memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
 
 ### [[⬆]](#toc) <a name='bk'>Good Books:</a>
