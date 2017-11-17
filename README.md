@@ -276,6 +276,10 @@ Reference:
 * [Design a cache system](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)
 * [Introduction to Memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
 
+**What happens when you search on Google**
+Reference:
+* [What happens when you type www.google.com in your browser?](https://www.glassdoor.com/Interview/What-happens-when-you-type-www-google-com-in-your-browser-QTN_56396.htm)
+
 ### [[⬆]](#toc) <a name='bk'>Good Books:</a>
 
 * [Big Data: Principles and best practices of scalable realtime data systems](http://www.amazon.com/Big-Data-Principles-practices-scalable/dp/1617290343)
