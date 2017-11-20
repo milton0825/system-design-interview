@@ -197,6 +197,9 @@ Reference:
 * [Design Newx Feed System (Part 2)](http://blog.gainlo.co/index.php/2016/04/05/design-news-feed-system-part-2/?utm_campaign=quora&utm_medium=What+are+the+best+practices+for+building+something+like+a+News+Feed%3F&utm_source=quora)
 
 **Design the Facebook timeline function**   
+* Compile a complete scrollable version of your story from photos, location, videos and status updates.
+* Will include more recent activities and less non-recent activities.
+
 Reference: 
 * [Building Timeline](https://www.facebook.com/note.php?note_id=10150468255628920) 
 * [Facebook Timeline](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html)
