@@ -236,18 +236,25 @@ Reference:
 * [Instagram Architecture](http://highscalability.com/blog/2011/12/6/instagram-architecture-14-million-users-terabytes-of-photos.html)
 
 **Design a search engine**   
+
 Reference:  
 * [How would you implement Google Search?](http://programmers.stackexchange.com/questions/38324/interview-question-how-would-you-implement-google-search)  
 * [Implementing Search Engines](http://www.ardendertat.com/2012/01/11/implementing-search-engines/)
 
-**Design a recommendation system**  
+**Design a recommendation system**  :heavy_check_mark:
+* Recommend stuffs such as video, goods that customers may like.
+
+Strategy:
+* Heuristic: suggest most popular videos.
+* Collaborative filtering: recommend videos watched by similar users.
+* Features: like, watch time, categories and freshness.
+
 Reference:
 * [Design a recommendation system](http://blog.gainlo.co/index.php/2016/05/24/design-a-recommendation-system/)
 * [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)  
 * [Recommender Systems](http://ijcai13.org/files/tutorial_slides/td3.pdf)
 
 **Design a tinyurl system**
-* 
 
 Reference:
 * [Create a TinyURL system](http://blog.gainlo.co/index.php/2016/03/08/system-design-interview-question-create-tinyurl-system/)
