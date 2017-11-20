@@ -139,15 +139,11 @@ The following papers/articles/slides can help you to understand the general desi
 There are some good references for each question. The references here are slides and articles. 
 
 **Design Twitter**
-
 Reference:
 * [How to design Twitter (part 1)](http://blog.gainlo.co/index.php/2016/02/17/system-design-interview-question-how-to-design-twitter-part-1/)
 * [How to design Twitter (part 2)](http://blog.gainlo.co/index.php/2016/02/24/system-design-interview-question-how-to-design-twitter-part-2/)
 
 **Design a CDN network**  
-
-![CDN](imgs/CDN.png)
-
 Reference:  
 * [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
 
@@ -156,9 +152,6 @@ Strategies:
 * Locking: lock the document so that it can be editted by one person at a time.
 * Event passing: capture all user actions and mirror them.
 * Differntial synchronization: 
-
-![differential-synchronization](imgs/differential-synchronization.png)
-
 Reference:  
 * [How to design Google docs](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
 * [google-mobwrite](https://code.google.com/p/google-mobwrite/)
