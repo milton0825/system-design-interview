@@ -138,26 +138,32 @@ The following papers/articles/slides can help you to understand the general desi
 
 There are some good references for each question. The references here are slides and articles. 
 
-**Design Twitter**
+**Design Twitter** :heavy_check_mark:
+* Serve feed. How to select your feeds and your friends' feeds and rank them and serve.
+
 Reference:
 * [How to design Twitter (part 1)](http://blog.gainlo.co/index.php/2016/02/17/system-design-interview-question-how-to-design-twitter-part-1/)
 * [How to design Twitter (part 2)](http://blog.gainlo.co/index.php/2016/02/24/system-design-interview-question-how-to-design-twitter-part-2/)
 
-**Design a CDN network**  
+**Design a CDN network** :heavy_check_mark:
 Reference:  
 * [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
 
-**Design a Google document system**  
+**Design a Google document system** :heavy_check_mark:
+* How to store document?
+* How to support collaboration?
+
 Strategies:
 * Locking: lock the document so that it can be editted by one person at a time.
 * Event passing: capture all user actions and mirror them.
 * Differntial synchronization: 
+
 Reference:  
 * [How to design Google docs](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
 * [google-mobwrite](https://code.google.com/p/google-mobwrite/)
 * [Differential Synchronization](https://neil.fraser.name/writing/sync/)
 
-**Design a random ID generation system**  
+**Design a random ID generation system** :heavy_check_mark:
 * id = (timestamp << 22) | (machine id << 12) | (thread id)
 
 Reference: 
@@ -167,12 +173,15 @@ Reference:
 * [Unique ID generation in distributed systema](https://www.slideshare.net/davegardnerisme/unique-id-generation-in-distributed-systems)
 
 **Design a key-value database**  
+
 Reference:   
 * [Design a key value store (part 1)](http://blog.gainlo.co/index.php/2016/06/14/design-a-key-value-store-part-i/)
 * [Design a key value store (part 2)](http://blog.gainlo.co/index.php/2016/06/21/design-key-value-store-part-ii/)
 * [Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
 
-**Design the Facebook news feed function**   
+**Design the Facebook news feed function** 
+* 
+
 Reference:   
 * [What are best practices for building something like a News Feed?](http://www.quora.com/What-are-best-practices-for-building-something-like-a-News-Feed) 
 * [What are the scaling issues to keep in mind while developing a social network feed?](http://www.quora.com/Activity-Streams/What-are-the-scaling-issues-to-keep-in-mind-while-developing-a-social-network-feed) 
@@ -221,7 +230,9 @@ Reference:
 * [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)  
 * [Recommender Systems](http://ijcai13.org/files/tutorial_slides/td3.pdf)
 
-**Design a tinyurl system**    
+[ ] **Design a tinyurl system**
+* 
+
 Reference:
 * [Create a TinyURL system](http://blog.gainlo.co/index.php/2016/03/08/system-design-interview-question-create-tinyurl-system/)
 * [System Design for Big Data-tinyurl](http://n00tc0d3r.blogspot.com/) 
