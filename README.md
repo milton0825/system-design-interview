@@ -230,7 +230,7 @@ Reference:
 
 **Design a tinyurl system**    
 Reference:
-* [Create a TinyURL system](http://blog.gainlo.co/index.php/2016/03/22/system-design-interview-question-how-to-design-google-docs/)
+* [Create a TinyURL system](http://blog.gainlo.co/index.php/2016/03/08/system-design-interview-question-create-tinyurl-system/)
 * [System Design for Big Data-tinyurl](http://n00tc0d3r.blogspot.com/) 
 * [URL Shortener API](https://developers.google.com/url-shortener/?csw=1)
 
