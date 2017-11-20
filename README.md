@@ -146,6 +146,7 @@ Reference:
 * [How to design Twitter (part 2)](http://blog.gainlo.co/index.php/2016/02/24/system-design-interview-question-how-to-design-twitter-part-2/)
 
 **Design a CDN network** :heavy_check_mark:
+
 Reference:  
 * [Globally Distributed Content Delivery](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2112&context=compsci)
 
@@ -179,8 +180,14 @@ Reference:
 * [Design a key value store (part 2)](http://blog.gainlo.co/index.php/2016/06/21/design-key-value-store-part-ii/)
 * [Introduction to Redis](http://www.slideshare.net/dvirsky/introduction-to-redis)
 
-**Design the Facebook news feed function** 
-* 
+**Design the Facebook news feed function** :heavy_check_mark: :star:
+* Data model. We need to store user and feed object.
+* Populate feed. We need to populate feed with low latency. Denormalization can help to reduce the number of visits to database.
+* Feed ranking. How do we rank feeds?
+* Feed publishing.
+  - Push. When someone publish feed, we immediately push this feed to his friends. This can reduce the time for read but can 
+    increase the write latency for people with a lot of friends.
+  - Pull. When user fetch his/her feeds, we traverse their friends feeds and merge them together.
 
 Reference:   
 * [What are best practices for building something like a News Feed?](http://www.quora.com/What-are-best-practices-for-building-something-like-a-News-Feed) 
