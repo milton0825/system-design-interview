@@ -196,7 +196,7 @@ Reference:
 * [Design News Feed System (Part 1)](http://blog.gainlo.co/index.php/2016/03/29/design-news-feed-system-part-1-system-design-interview-questions/?utm_campaign=quora&utm_medium=What+are+the+best+practices+for+building+something+like+a+News+Feed%3F&utm_source=quora)
 * [Design Newx Feed System (Part 2)](http://blog.gainlo.co/index.php/2016/04/05/design-news-feed-system-part-2/?utm_campaign=quora&utm_medium=What+are+the+best+practices+for+building+something+like+a+News+Feed%3F&utm_source=quora)
 
-**Design the Facebook timeline function**   
+**Design the Facebook timeline function** :heavy_check_mark:
 * Compile a complete scrollable version of your story from photos, location, videos and status updates.
 * Will include more recent activities and less non-recent activities.
 
@@ -205,11 +205,13 @@ Reference:
 * [Facebook Timeline](http://highscalability.com/blog/2012/1/23/facebook-timeline-brought-to-you-by-the-power-of-denormaliza.html)
 
 **Design a function to return the top k requests during past time interval**   
+
 Reference:  
 * [Efficient Computation of Frequent and Top-k Elements in Data Streams](http://www.cse.ust.hk/~raywong/comp5331/References/EfficientComputationOfFrequentAndTop-kElementsInDataStreams.pdf)
 * [An Optimal Strategy for Monitoring Top-k Queries in Streaming Windows](http://davis.wpi.edu/xmdv/docs/EDBT11-diyang.pdf)
 
 **Design an online multiplayer card game**   
+
 Reference:  
 * [How to Create an Asynchronous Multiplayer Game](http://www.indieflashblog.com/how-to-create-an-asynchronous-multiplayer-game.html)   
 * [How to Create an Asynchronous Multiplayer Game Part 2: Saving the Game State to Online Database](http://www.indieflashblog.com/how-to-create-async-part2.html)  
@@ -218,12 +220,16 @@ Reference:
 * [Real Time Multiplayer in HTML5](http://buildnewgames.com/real-time-multiplayer/)  
 
 **Design a graph search function**   
+
 Reference:   
 * [Building out the infrastructure for Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-building-out-the-infrastructure-for-graph-search/10151347573598920)
 * [Indexing and ranking in Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-indexing-and-ranking-in-graph-search/10151361720763920) 
 * [The natural language interface of Graph Search](https://www.facebook.com/notes/facebook-engineering/under-the-hood-the-natural-language-interface-of-graph-search/10151432733048920) and [Erlang at Facebook](http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf)
 
-**Design a picture sharing system**   
+**Design a picture sharing system** :heavy_check_mark:
+* Allows people to upload images.
+* Images feeds. Select your friends' images on your feed.
+
 Reference:   
 * [Create a photo sharing app](http://blog.gainlo.co/index.php/2016/03/01/system-design-interview-question-create-a-photo-sharing-app/)
 * [Flickr Architecture](http://highscalability.com/flickr-architecture) 
@@ -240,7 +246,7 @@ Reference:
 * [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)  
 * [Recommender Systems](http://ijcai13.org/files/tutorial_slides/td3.pdf)
 
-[ ] **Design a tinyurl system**
+**Design a tinyurl system**
 * 
 
 Reference:
