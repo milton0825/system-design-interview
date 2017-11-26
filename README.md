@@ -173,7 +173,11 @@ Reference:
 * [snowflake](https://github.com/twitter/snowflake/)
 * [Unique ID generation in distributed systema](https://www.slideshare.net/davegardnerisme/unique-id-generation-in-distributed-systems)
 
-**Design a key-value database**  
+**Design a key-value database** :heavy_check_mark:
+* Single machine memory -> single machine disk -> multiple machine disk.
+* Distributed -> sharding.
+* Add/remove nodes -> consistence hashing.
+* Availability -> replica.
 
 Reference:   
 * [Design a key value store (part 1)](http://blog.gainlo.co/index.php/2016/06/14/design-a-key-value-store-part-i/)
