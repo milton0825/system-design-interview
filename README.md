@@ -302,7 +302,11 @@ Reference:
 * [Build a web crawler](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
 * [How can I build a web crawler from scratch?](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch)
 
-**Design the Facebook chat function**    
+**Design the Facebook chat function** :heavy_check_mark:
+* Reduce cost when delivering message to receiver. Chat server need to spawn process/thread to initialize HTTP connection, send
+  message and close connection, which is costly. We can use HTTP persistence connection. Re-establish connection when timeout.
+* Online notification. At peak time, we will need to send O(average number of friends * peak users) requests. We can limit the scope to
+  very active users. We will not send a notification unless user reload page, send message or stay online for more than 5 mins
 
 Reference:   
 * [Design a Facebook chat function](http://blog.gainlo.co/index.php/2016/04/19/design-facebook-chat-function/)
