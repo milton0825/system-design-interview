@@ -279,7 +279,7 @@ Reference:
 Reference:
 * [Design hit counter](http://blog.gainlo.co/index.php/2016/09/12/dropbox-interview-design-hit-counter/)
 
-**Design a Youtube system**
+**Design a Youtube system** :heavy_check_mark:
 * Video storage. Store static video contents with content delivery network (CDN) to serve content to users with high availability and
   high performance.
 * Store popular videos on CDN while store long-tailed videos (1-20 views daily) on our servers by location. Long tailed videos are
