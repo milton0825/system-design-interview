@@ -275,43 +275,55 @@ Reference:
 * [Design eCommerce website (part 2)](http://blog.gainlo.co/index.php/2016/08/28/design-ecommerce-website-part-ii/)
 
 **Design a hit counter**
+
 Reference:
 * [Design hit counter](http://blog.gainlo.co/index.php/2016/09/12/dropbox-interview-design-hit-counter/)
 
 **Design a Youtube system**
+* Video storage. Store static video contents with content delivery network (CDN) to serve content to users with high availability and
+  high performance.
+* Store popular videos on CDN while store long-tailed videos (1-20 views daily) on our servers by location. Long tailed videos are
+  usually watched by a particular group of people so we can predict the location and store them efficiently.
+
 Reference:
 * [How to design Youtube (part 1)](http://blog.gainlo.co/index.php/2016/10/22/design-youtube-part/)
 * [How to design Youtube (part 2)](http://blog.gainlo.co/index.php/2016/11/04/design-youtube-part-ii/)
 
 **Design a garbage collection system**    
+
 Reference: 
 * [Design a garbage collection system (part 1)](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
 * [Design a garbage collection system (part 2)](http://blog.gainlo.co/index.php/2016/08/08/design-garbage-collection-system-part-ii/)
 * [Baby's First Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
  
 **Design a scalable web crawling system**    
+
 Reference:  
 * [Build a web crawler](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
 * [How can I build a web crawler from scratch?](https://www.quora.com/How-can-I-build-a-web-crawler-from-scratch)
 
 **Design the Facebook chat function**    
+
 Reference:   
 * [Design a Facebook chat function](http://blog.gainlo.co/index.php/2016/04/19/design-facebook-chat-function/)
 * [Erlang at Facebook](http://www.erlang-factory.com/upload/presentations/31/EugeneLetuchy-ErlangatFacebook.pdf)  
 * [Facebook Chat](https://www.facebook.com/note.php?note_id=14218138919&id=9445547199&index=0)
 
 **Design a trending topic system**    
+
 Reference:  
 * [How to design a trending algorithm for Twitter](http://blog.gainlo.co/index.php/2016/05/03/how-to-design-a-trending-algorithm-for-twitter/)
 * [Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm](http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/)   
 * [Early detection of Twitter trends explained](http://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/)
  
 **Design a cache system**    
+
 Reference:   
 * [Design a cache system](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)
 * [Introduction to Memcached](http://www.slideshare.net/oemebamo/introduction-to-memcached)
 
 **What happens when you search on Google**
+
 Reference:
 * [What happens when you type www.google.com in your browser?](https://www.glassdoor.com/Interview/What-happens-when-you-type-www-google-com-in-your-browser-QTN_56396.htm)
 
