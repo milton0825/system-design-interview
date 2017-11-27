@@ -47,7 +47,7 @@ Here are some articles about system design related topics.
 - [x] [Scalable System Design Patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html) :star:
 - [x] [Introduction to Architecting Systems for Scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 - [ ] [Transactions Across Datacenters](http://snarfed.org/transactions_across_datacenters_io.html)
-- [ ] [A Plain English Introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
+- [x] [A Plain English Introduction to CAP Theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
 - [x] [The CAP FAQ](https://github.com/henryr/cap-faq)
 - [ ] [Paxos Made Simple](http://research.microsoft.com/en-us/um/people/lamport/pubs/paxos-simple.pdf)
 - [ ] [Consistent Hashing](http://www.tom-e-white.com/2007/11/consistent-hashing.html)
