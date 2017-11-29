@@ -269,6 +269,12 @@ Reference:
 * [URL Shortener API](https://developers.google.com/url-shortener/?csw=1)
 
 **Design eCommerce website**
+* Support users to buy products and have an order to track.
+* Different products may not share same attributes. NoSQL databases such as Cassandra gives flexibility to each row.
+* Optimistic concurrency control is preferred when products are not frequently accessed by multiple people. 
+* Optimistic concurreny control: each process/thread access data without a lock. Before commiting changes, each transaction should
+  check if the data is still the same as you last read. If the data is not in the same state, rollback transaction and restart.
+* Pessimestic concurrentcy control: only process/thread with a lock can access data.
 
 Reference:
 * [Design eCommerce website (part 1)](http://blog.gainlo.co/index.php/2016/08/22/design-ecommerce-website-part/)
