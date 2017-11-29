@@ -268,7 +268,7 @@ Reference:
 * [System Design for Big Data-tinyurl](http://n00tc0d3r.blogspot.com/) 
 * [URL Shortener API](https://developers.google.com/url-shortener/?csw=1)
 
-**Design eCommerce website**
+**Design eCommerce website** :heavy_check_mark:
 * Support users to buy products and have an order to track.
 * Different products may not share same attributes. NoSQL databases such as Cassandra gives flexibility to each row.
 * Optimistic concurrency control is preferred when products are not frequently accessed by multiple people. 
