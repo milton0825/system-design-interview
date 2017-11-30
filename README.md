@@ -258,8 +258,16 @@ Reference:
 * [Hulu’s Recommendation System](http://tech.hulu.com/blog/2011/09/19/recommendation-system.html)  
 * [Recommender Systems](http://ijcai13.org/files/tutorial_slides/td3.pdf)
 
-**Design a tinyurl system** :heavy_check_mark:
-* Store <id, url> mapping.
+**Design a tinyurl system** :heavy_check_mark: :star:
+* How to generate tinyurl?
+  - Generate random and check db
+  - Pick first 43 bits of MD5
+  - Counter
+    - Single host: DB counter
+    - All host: [counter, host_id]
+    - Range based: Zookeeper maintains pools of counter range [0, 1000], [1001, 2000] and assign each worker a range
+
+Store <id, url> mapping.
 * Sequential id to reduce disk I/O. Assuming we have millions of records, insertion with random id means that we have to find 
   the correct page. If we use sequential id, we simply find the last page. 
 
