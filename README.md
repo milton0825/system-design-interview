@@ -266,8 +266,7 @@ Reference:
     - Single host: DB counter
     - All host: [counter, host_id]
     - Range based: Zookeeper maintains pools of counter range [0, 1000], [1001, 2000] and assign each worker a range
-
-Store <id, url> mapping.
+* Store <id, url> mapping.
 * Sequential id to reduce disk I/O. Assuming we have millions of records, insertion with random id means that we have to find 
   the correct page. If we use sequential id, we simply find the last page. 
 
@@ -334,7 +333,11 @@ Reference:
 * [Implementing Real-Time Trending Topics With a Distributed Rolling Count Algorithm in Storm](http://www.michael-noll.com/blog/2013/01/18/implementing-real-time-trending-topics-in-storm/)   
 * [Early detection of Twitter trends explained](http://snikolov.wordpress.com/2012/11/14/early-detection-of-twitter-trends/)
  
-**Design a cache system**    
+**Design a cache system** :heavy_check_mark:
+* Eviction policy: LRU, random replacement, LFU
+* Concurrency:
+  - Lock
+  - Commit logs. Store mutations and background process execute logs asynchronously.
 
 Reference:   
 * [Design a cache system](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)
