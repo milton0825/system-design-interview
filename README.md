@@ -309,7 +309,17 @@ Reference:
 * [Design a garbage collection system (part 2)](http://blog.gainlo.co/index.php/2016/08/08/design-garbage-collection-system-part-ii/)
 * [Baby's First Garbage Collector](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)
  
-**Design a scalable web crawling system**    
+**Design a scalable web crawling system** :heavy_check_mark:
+* HTTP Fetcher: To retrieve web page from the server.
+* Extractor: Minimal support to extract URL from page like anchor links.
+* Duplicate Eliminator: To make sure same content is not extracted twice unintentionally. Consider it as a set based data structure.
+* URL Frontier: To prioritize URL that has to fetched and parsed. Consider it as a priority queue
+* Datastore: To store retrieve pages and URL and other meta data. 
+
+Challenges:
+* Coordinate duplicate eliminator and URL frontier.
+* DNS resolveing -> local cache
+* Seed/Content selection
 
 Reference:  
 * [Build a web crawler](http://blog.gainlo.co/index.php/2016/06/29/build-web-crawler/)
